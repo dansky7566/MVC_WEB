@@ -44,7 +44,7 @@
 
         //----Function-----
 
-        // 上傳檔案邏輯
+        //上傳檔案邏輯
         var _uploadFile = function () {
             var files = $('#FileUpload')[0].files;
             var isCheck = true;
