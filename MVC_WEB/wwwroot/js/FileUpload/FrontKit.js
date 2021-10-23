@@ -7,7 +7,10 @@
 
         //檔案上傳
         $('#FileUpload').on("change", function () {
-            UploadButton('#FileUpload', $filesTemp, tmpFileIndex);
+
+            var html = "<div>檔案名稱：{0} 副檔名：{1} </div> <br/>";
+            var data = UploadButton('#FileUpload', $filesTemp, tmpFileIndex, html);
+            console.log(data);      
         });
 
         //刪除按鈕
