@@ -28,7 +28,8 @@ namespace MVC_WEB
             services.AddMvc(config =>
             {
                 config.Filters.Add(new InputFilter());
-            
+                config.Filters.Add(new APIFilter());
+
             });
 
             services.AddControllersWithViews();

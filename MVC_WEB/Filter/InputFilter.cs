@@ -11,12 +11,12 @@ namespace MVC_WEB.Filter
     {
         public void OnActionExecuting(ActionExecutingContext context)
         {
-            Debug.WriteLine("test1");
+            Debug.WriteLine("InputFilter_1");
         }
 
         public void OnActionExecuted(ActionExecutedContext context)
         {
-            Debug.WriteLine("test2");
+            Debug.WriteLine("InputFilter_2");
         }
     }
 
